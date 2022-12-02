@@ -28,6 +28,8 @@ The primary metric for assessing model performance was accuracy (classification 
 
 The models I funneled the pipelines into were:
 Logistic Regression​
+![Image](acc_score.png)
+![Image](class_rep.png)
 Support Vector Machine​
 Random Forrest
 
