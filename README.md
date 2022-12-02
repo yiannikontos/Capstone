@@ -33,11 +33,12 @@ Random Forrest
 
 Gridsearch and PCA was also implemented in the subsequent model pipelines for hyperperameter tuning.
 
-Feature importance was extracted from the highest performing model.
+Feature importance was extracted from the highest performing model, though the models scored around the same.
+
 
 # Evaluation
 The best model as it turns out was the random forrest model without and hyperperameter tuning.
-
+![Image](confmatrixrf.png)
 # Model Value & Limitations:
 The random forrest model was overfit and attempts to change this by making the max_depth smaller didnt work either.  That said 86% isn't terrible.
 
